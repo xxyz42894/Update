@@ -1,8 +1,8 @@
 {
   "latestVersion": 204,
-  "versionName": "2.0.4",
+  "versionName": "2.0.4-stable",
   "updateUrl": "https://github.com/user/repo/releases/download/v2.0.4/app-release.apk",
   "updateMessage": "Humne nayi security features aur performance improvements add kiye hain. Abhi update karein!",
-  "remindLaterDays": 2,
-  "enableAfterDate": "2024-05-20"
+  "remindLaterDays": 1,
+  "enableAfterDate": "2026-04-20"
 }
