@@ -4,7 +4,7 @@
   "updateUrl": "https://github.com/user/repo/releases/download/v2.0.4/app-release.apk",
   "updateMessage": "Humne nayi security features aur performance improvements add kiye hain. Abhi update karein!",
   "showUpdate": true,
-  "forceUpdate": false,
+  "forceUpdate": true,
   "remindEnabled": false,
   "remindType": "hour",
   "remindValue": 1,
