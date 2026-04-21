@@ -3,7 +3,7 @@
   "versionName": "1.0.1 - Beta",
   "updateUrl": "https://github.com/user/repo/releases/download/v2.0.4/app-release.apk",
   "updateMessage": "Humne nayi security features aur performance improvements add kiye hain. Abhi update karein!",
-  "showUpdate": true,
+  "showUpdate": false,
   "forceUpdate": false,
   "remindEnabled": false,
   "remindType": "hour",
