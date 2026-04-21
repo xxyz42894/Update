@@ -1,12 +1,12 @@
 {
   "latestVersion": 204,
-  "versionName": "2.0.4-stable",
+  "versionName": "1.0.1 - Beta",
   "updateUrl": "https://github.com/user/repo/releases/download/v2.0.4/app-release.apk",
   "updateMessage": "Humne nayi security features aur performance improvements add kiye hain. Abhi update karein!",
   "showUpdate": true,
   "forceUpdate": false,
-  "remindEnabled": true,
-  "remindType": "day",
+  "remindEnabled": false,
+  "remindType": "hour",
   "remindValue": 1,
   "enableAfterDate": "2026-04-21"
 }
