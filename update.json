@@ -3,6 +3,10 @@
   "versionName": "2.0.4-stable",
   "updateUrl": "https://github.com/user/repo/releases/download/v2.0.4/app-release.apk",
   "updateMessage": "Humne nayi security features aur performance improvements add kiye hain. Abhi update karein!",
-  "remindLaterDays": 1,
+  "showUpdate": true,
+  "forceUpdate": false,
+  "remindEnabled": true,
+  "remindType": "day",
+  "remindValue": 1,
   "enableAfterDate": "2026-04-21"
 }
