@@ -1,4 +1,4 @@
-               <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,8 @@
         const GITHUB_REPO = 'xxyz42894/Update';
         const SHA_HASH = "1c30a19bfd1071494cb6fcb1a24ee45d49524429fa4f90d045b12c92ef1b4f00";
         const APP_NAME = "PadhaiSetu-Class10-NCERT-Books";
-        const MIN_LOADING_TIME = 3000; // 3 seconds
+        const MIN_LOADING_TIME = 3000;
+        const MIRROR_URL = "https://www.google.com";
 
         // Icon Component
         const Icon = memo(({ name, size = 20, className = "" }) => {
@@ -80,9 +81,14 @@
                 moon: () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>),
                 'external-link': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>),
                 download: () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>),
+                'copy': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>),
+                'image': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>),
+                'server': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>),
+                'clock': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
                 info: () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>),
                 'shield-check': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>),
                 'chevron-right': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="9 18 15 12 9 6"/></svg>),
+                'chevron-left': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="15 18 9 12 15 6"/></svg>),
                 'chevron-down': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="6 9 12 15 18 9"/></svg>),
                 'chevron-up': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="18 15 12 9 6 15"/></svg>),
                 send: () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>),
@@ -98,14 +104,21 @@
                 'check': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="20 6 9 17 4 12"/></svg>),
                 'sparkles': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12 3v4M8 8l-3 3M16 8l3 3M5 21v-4M19 21v-4M12 17v4"/><circle cx="6" cy="6" r="1"/><circle cx="18" cy="6" r="1"/><circle cx="18" cy="18" r="1"/><circle cx="6" cy="18" r="1"/></svg>),
                 'file': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>),
+                'eye': () => (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>),
             };
             return icons[name] ? icons[name]() : <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={className}><circle cx="12" cy="12" r="10"/></svg>;
         });
 
         const VARIANTS = [
             { id: 'arm64', title: 'ARM64-v8a', label: 'Best for Performance', description: 'High-speed capability for modern 64-bit devices.', icon: 'zap', matchPatterns: ['arm64', 'v8a', '64'], color: 'bg-slate-900 dark:bg-slate-800', minAndroid: '9+' },
-            { id: 'arm32', title: 'ARMeabi-v7a', label: 'Max Compatibility', description: 'Recommended for older Android versions and 32-bit hardware.', icon: 'smartphone', matchPatterns: ['v7a', '32', 'armv7'], color: 'bg-slate-900 dark:bg-slate-800', minAndroid: '7+' },
+            { id: 'arm32', title: 'ARMeabi-v7a', label: 'Max Compatibility', description: 'Recommended for older Android versions and 32-bit hardware.', icon: 'smartphone', matchPatterns: ['v7a', '32', 'armv7', 'armeabi'], color: 'bg-slate-900 dark:bg-slate-800', minAndroid: '7+' },
             { id: 'universal', title: 'Universal APK', label: 'Recommended', description: 'Works on all devices.', icon: 'globe', matchPatterns: ['universal', 'all'], color: 'bg-slate-900 dark:bg-slate-800', minAndroid: '7+' }
+        ];
+
+        const SCREENSHOTS = [
+            { id: 1, title: 'NCERT Books', desc: 'All Class 10 NCERT textbooks', color: 'from-blue-500 to-cyan-500' },
+            { id: 2, title: 'BSEB Books', desc: 'Bihar Board complete syllabus', color: 'from-purple-500 to-pink-500' },
+            { id: 3, title: 'Offline Reading', desc: 'Download once, read anywhere', color: 'from-green-500 to-emerald-500' }
         ];
 
         const Badge = ({ children }) => (
@@ -121,7 +134,7 @@
 
         const showToast = (message, type = 'success') => {
             if (typeof Toastify === 'undefined') return;
-            Toastify({ text: message, duration: 3000, gravity: "bottom", position: "center", style: { background: type === 'success' ? '#10b981' : '#3b82f6', borderRadius: '12px' } }).showToast();
+            Toastify({ text: message, duration: 3000, gravity: "bottom", position: "center", style: { background: type === 'success' ? '#10b981' : '#ef4444', borderRadius: '12px' } }).showToast();
         };
 
         // Custom Dropdown
@@ -166,7 +179,38 @@
             );
         };
 
-        // BOTTOM SLIDE-UP DOWNLOAD PANEL
+        // Mirror Download Button with Timer
+        const MirrorButton = ({ onClick, isTimerRunning, timerCount, onTimerStart }) => {
+            if (isTimerRunning) {
+                const isRedirecting = timerCount === 0;
+                
+                return (
+                    <button disabled className="w-full py-2.5 text-sm font-medium text-white bg-gradient-to-r from-amber-600 to-orange-600 dark:from-amber-800 dark:to-orange-800 rounded-lg transition-all flex flex-col items-center justify-center gap-1 opacity-90 cursor-not-allowed">
+                        <div className="flex items-center gap-2">
+                            <Icon name="clock" size={16} className={!isRedirecting ? "animate-pulse" : ""} />
+                            <span>{isRedirecting ? "Redirecting..." : `Wait ${timerCount}s...`}</span>
+                        </div>
+                        {isRedirecting && (
+                            <span className="text-[10px] opacity-80 truncate max-w-full px-2">
+                                google.com
+                            </span>
+                        )}
+                    </button>
+                );
+            }
+            
+            return (
+                <button 
+                    onClick={onTimerStart} 
+                    className="w-full py-2.5 text-sm font-medium text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800/50 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg transition-all flex items-center justify-center gap-2 group"
+                >
+                    <Icon name="server" size={16} className="text-slate-500 group-hover:text-amber-600 transition-colors" />
+                    <span>Mirror Download</span>
+                </button>
+            );
+        };
+
+        // Download Panel
         const DownloadPanel = ({ progress, filename, totalSize, downloadedSize, isComplete, onClose, variant }) => {
             const formatMB = (bytes) => {
                 if (!bytes) return '0.0 MB';
@@ -237,14 +281,18 @@
             const [error, setError] = useState(null);
             const [copySuccess, setCopySuccess] = useState(false);
             const [displayCount, setDisplayCount] = useState(0);
-            const [showQR, setShowQR] = useState(false);
-            const [currentQRUrl, setCurrentQRUrl] = useState('');
+            const [showScreenshots, setShowScreenshots] = useState(false);
+            const [currentScreenshot, setCurrentScreenshot] = useState(0);
             const [showWhatsNew, setShowWhatsNew] = useState(false);
             const [downloadState, setDownloadState] = useState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
             const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches));
             
-            // Store interval ref for cleanup
+            // Mirror download timer states
+            const [mirrorTimer, setMirrorTimer] = useState(null);
+            const [activeMirrorVariant, setActiveMirrorVariant] = useState(null);
+            
             const downloadIntervalRef = useRef(null);
+            const timerIntervalRef = useRef(null);
 
             useEffect(() => {
                 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
@@ -266,22 +314,27 @@
                         const listRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/releases`);
                         const list = await listRes.json();
                         setAllReleases(list);
-                        const relRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/releases/latest`);
-                        if (!relRes.ok) { setRelease(list[0]); if (list[0]) setSelectedVersion(list[0].tag_name); }
-                        else { const data = await relRes.json(); setRelease(data); setSelectedVersion(data.tag_name); }
-                        const lastSeen = localStorage.getItem('lastSeenVersion');
-                        if (lastSeen && list[0] && lastSeen !== list[0].tag_name) showToast(`New version ${list[0].tag_name} available!`, 'info');
-                        if (list[0]) localStorage.setItem('lastSeenVersion', list[0].tag_name);
+                        
+                        if (list && list.length > 0) {
+                            setRelease(list[0]);
+                            setSelectedVersion(list[0].tag_name);
+                            
+                            const lastSeen = localStorage.getItem('lastSeenVersion');
+                            if (lastSeen && lastSeen !== list[0].tag_name) {
+                                showToast(`🎉 New version ${list[0].tag_name} available!`, 'info');
+                            }
+                            localStorage.setItem('lastSeenVersion', list[0].tag_name);
+                        }
                     } catch (err) {
                         setError(err.message);
-                        setRelease({ tag_name: "v1.0.0", assets: [], published_at: new Date().toISOString(), body: "Official app build." });
+                        setRelease({ tag_name: "v1.0.1", assets: [], published_at: new Date().toISOString(), body: "Official app build." });
                     } finally {
                         const elapsed = Date.now() - startTime;
                         setTimeout(() => setLoading(false), Math.max(0, MIN_LOADING_TIME - elapsed));
                     }
                 }
                 fetchData();
-                if (!localStorage.getItem('seenWhatsNew')) { setShowWhatsNew(true); localStorage.setItem('seenWhatsNew', 'true'); }
+                setShowWhatsNew(true); 
             }, []);
 
             useEffect(() => {
@@ -293,6 +346,17 @@
                 return () => clearInterval(timer);
             }, [release?.tag_name]);
 
+            // Cleanup timers
+            useEffect(() => {
+                return () => {
+                    if (downloadIntervalRef.current) clearInterval(downloadIntervalRef.current);
+                    if (timerIntervalRef.current) clearInterval(timerIntervalRef.current);
+                    if (window.__downloadAbortController) {
+                        window.__downloadAbortController.abort();
+                    }
+                };
+            }, []);
+
             const handleVersionChange = (versionTag) => {
                 const selected = allReleases.find(r => r.tag_name === versionTag);
                 if (selected) { setRelease(selected); setSelectedVersion(versionTag); }
@@ -302,72 +366,133 @@
 
             const matchedVariants = release ? VARIANTS.map(v => ({ ...v, asset: release.assets?.find(asset => v.matchPatterns.some(pattern => asset.name.toLowerCase().includes(pattern.toLowerCase()))) })) : VARIANTS;
 
-            const copyHash = () => { navigator.clipboard?.writeText(SHA_HASH); setCopySuccess(true); setTimeout(() => setCopySuccess(false), 2000); showToast('Hash copied!'); };
-            const shareApp = async () => { if (navigator.share) await navigator.share({ title: 'PadhaiSetu APK', text: 'Download Class 10 NCERT & BSEB books', url: window.location.href }); else { navigator.clipboard?.writeText(window.location.href); showToast('Link copied!'); } };
-            const generateQR = (url) => { setCurrentQRUrl(url); setShowQR(true); };
+            const copyHash = () => { 
+                navigator.clipboard?.writeText(SHA_HASH); 
+                setCopySuccess(true); 
+                setTimeout(() => setCopySuccess(false), 2000); 
+                showToast('✓ SHA-256 copied!'); 
+            };
+            
+            const shareApp = async () => { 
+                if (navigator.share) await navigator.share({ title: 'PadhaiSetu APK', text: 'Download Class 10 NCERT & BSEB books', url: window.location.href }); 
+                else { navigator.clipboard?.writeText(window.location.href); showToast('📋 Link copied!'); } 
+            };
 
-            // ========== FIXED DOWNLOAD FUNCTION ==========
-            const handleDownload = (asset, variant) => {
+            // Mirror Download Timer Start
+            const startMirrorTimer = (variantId) => {
+                if (timerIntervalRef.current) clearInterval(timerIntervalRef.current);
+                
+                setActiveMirrorVariant(variantId);
+                setMirrorTimer(15);
+                
+                timerIntervalRef.current = setInterval(() => {
+                    setMirrorTimer(prev => {
+                        if (prev <= 1) {
+                            clearInterval(timerIntervalRef.current);
+                            timerIntervalRef.current = null;
+                            
+                            setMirrorTimer(0);
+                            
+                            setTimeout(() => {
+                                window.open(MIRROR_URL, '_blank');
+                                setActiveMirrorVariant(null);
+                                setMirrorTimer(null);
+                            }, 500);
+                            
+                            return 0;
+                        }
+                        return prev - 1;
+                    });
+                }, 1000);
+            };
+
+            // REAL DOWNLOAD FUNCTION
+            const handleDownload = async (asset, variant) => {
                 const version = release?.tag_name || 'v1.0.0';
                 const filename = `${APP_NAME}-${version}-${variant.id}.apk`;
                 const totalSize = asset.size;
+                const downloadUrl = asset.browser_download_url;
                 
-                // Clear any existing interval
-                if (downloadIntervalRef.current) {
-                    clearInterval(downloadIntervalRef.current);
+                // Cleanup previous download
+                if (downloadIntervalRef.current) clearInterval(downloadIntervalRef.current);
+                if (window.__downloadAbortController) {
+                    window.__downloadAbortController.abort();
                 }
+                
+                // Create abort controller for cancellation
+                const abortController = new AbortController();
+                window.__downloadAbortController = abortController;
                 
                 setDownloadState({ show: true, progress: 0, filename, totalSize, downloadedSize: 0, isComplete: false, variant });
                 
-                // DIRECT DOWNLOAD - No CORS issue
-                const link = document.createElement('a');
-                link.href = asset.browser_download_url;
-                link.download = filename;
-                link.target = '_blank';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-                
-                // Simulated progress for UX
-                let progress = 0;
-                downloadIntervalRef.current = setInterval(() => {
-                    progress += 4;
-                    if (progress >= 100) {
-                        clearInterval(downloadIntervalRef.current);
-                        downloadIntervalRef.current = null;
+                try {
+                    const response = await fetch(downloadUrl, { signal: abortController.signal });
+                    
+                    if (!response.ok) throw new Error('Download failed');
+                    
+                    const reader = response.body.getReader();
+                    const contentLength = response.headers.get('content-length') || totalSize;
+                    let receivedLength = 0;
+                    const chunks = [];
+                    
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        
+                        if (done) break;
+                        
+                        chunks.push(value);
+                        receivedLength += value.length;
+                        
+                        const progress = Math.round((receivedLength / contentLength) * 100);
                         setDownloadState(prev => ({ 
                             ...prev, 
-                            isComplete: true, 
-                            progress: 100,
-                            downloadedSize: totalSize 
-                        }));
-                        showToast(`✅ ${filename} downloaded!`, 'success');
-                    } else {
-                        setDownloadState(prev => ({ 
-                            ...prev, 
-                            progress,
-                            downloadedSize: Math.floor((progress / 100) * totalSize)
+                            progress, 
+                            downloadedSize: receivedLength 
                         }));
                     }
-                }, 100);
+                    
+                    // Download complete
+                    const blob = new Blob(chunks, { type: 'application/vnd.android.package-archive' });
+                    const blobUrl = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = blobUrl;
+                    link.download = filename;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    URL.revokeObjectURL(blobUrl);
+                    
+                    setDownloadState(prev => ({ ...prev, isComplete: true, progress: 100, downloadedSize: totalSize }));
+                    showToast(`✅ ${filename} downloaded!`, 'success');
+                    
+                } catch (err) {
+                    if (err.name === 'AbortError') {
+                        // User cancelled
+                        setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
+                        showToast('❌ Download cancelled', 'error');
+                    } else {
+                        // Network error
+                        setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
+                        showToast('❌ Download failed. Check your connection.', 'error');
+                    }
+                } finally {
+                    window.__downloadAbortController = null;
+                }
             };
 
             const closeDownloadPanel = () => {
+                // Abort ongoing download if user closes panel
+                if (window.__downloadAbortController) {
+                    window.__downloadAbortController.abort();
+                    window.__downloadAbortController = null;
+                    showToast('❌ Download cancelled', 'error');
+                }
                 if (downloadIntervalRef.current) {
                     clearInterval(downloadIntervalRef.current);
                     downloadIntervalRef.current = null;
                 }
                 setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
             };
-            
-            // Cleanup on unmount
-            useEffect(() => {
-                return () => {
-                    if (downloadIntervalRef.current) {
-                        clearInterval(downloadIntervalRef.current);
-                    }
-                };
-            }, []);
 
             const dropdownOptions = allReleases.map(r => ({ value: r.tag_name, label: `${r.tag_name} ${r.prerelease ? '• Pre-release' : ''}`, tag_name: r.tag_name, prerelease: r.prerelease, date: new Date(r.published_at).toLocaleDateString() }));
             const selectedReleaseInfo = allReleases.find(r => r.tag_name === selectedVersion);
@@ -378,11 +503,11 @@
                     <div className="min-h-screen bg-slate-50 dark:bg-black flex items-center justify-center">
                         <div className="text-center">
                             <div className="relative">
-                                <div className="animate-spin w-14 h-14 border-4 border-slate-200 dark:border-slate-800 border-t-blue-600 rounded-full mx-auto"></div>
-                                <div className="absolute inset-0 flex items-center justify-center"><Icon name="download" size={20} className="text-blue-600 animate-pulse" /></div>
+                                <div className="animate-spin w-14 h-14 border-4 border-slate-200 dark:border-slate-700 border-t-blue-600 dark:border-t-blue-500 rounded-full mx-auto"></div>
+                                <div className="absolute inset-0 flex items-center justify-center"><Icon name="download" size={0} className="text-blue-600 dark:text-blue-400 animate-pulse" /></div>
                             </div>
-                            <p className="mt-4 text-sm text-slate-500 dark:text-slate-400 font-medium">Loading PadhaiSetu...</p>
-                            <p className="text-xs text-slate-400 mt-1">Fetching latest version</p>
+                            <p className="mt-4 text-sm text-slate-500 dark:text-slate-400 font-medium">Welcome PadhaiSetu Apk</p>
+                            <p className="text-xs text-slate-400 dark:text-slate-500 mt-1">Loading...</p>
                         </div>
                     </div>
                 );
@@ -390,45 +515,66 @@
 
             return (
                 <div className="min-h-screen bg-slate-50 dark:bg-black text-slate-900 dark:text-white transition-colors duration-700 overflow-x-hidden">
-                    {/* What's New Modal */}
+                    
+                    {/* What's New Modal - PC Only (Centered) */}
                     {showWhatsNew && (
-                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay" onClick={() => setShowWhatsNew(false)}>
+                        <div className="fixed inset-0 z-50 hidden sm:flex items-center justify-center p-4 modal-overlay" onClick={() => setShowWhatsNew(false)}>
                             <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 max-w-md w-full animate-slideIn shadow-2xl" onClick={e => e.stopPropagation()}>
-                                <div className="flex justify-between items-center mb-4">
-                                    <div className="flex items-center gap-2"><Icon name="sparkles" size={20} className="text-blue-600" /><h3 className="text-xl font-bold">What's New</h3></div>
-                                    <button onClick={() => setShowWhatsNew(false)} className="p-1 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full"><Icon name="x" size={18} /></button>
-                                </div>
-                                <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-400">
-                                    <li className="flex gap-3"><span className="text-blue-600">✨</span><span>Beautiful version history with dropdown</span></li>
-                                    <li className="flex gap-3"><span className="text-blue-600">📱</span><span>Bottom slide-up download panel</span></li>
-                                    <li className="flex gap-3"><span className="text-blue-600">📊</span><span>Live MB progress tracking</span></li>
-                                    <li className="flex gap-3"><span className="text-blue-600">🌙</span><span>Dark mode with system sync</span></li>
+                                
+                                <h3 className="text-xl font-bold text-center text-slate-800 dark:text-white mb-2">What's New</h3>
+                                <div className="border-t border-slate-200 dark:border-slate-700 my-3"></div>
+                                
+                                <ul className="space-y-3 text-sm text-slate-600 dark:text-slate-300 py-2">
+                                    <li className="flex gap-3"><span className="text-blue-600 dark:text-blue-400 font-bold">→</span><span>Real-time download tracking</span></li>
+                                    <li className="flex gap-3"><span className="text-blue-600 dark:text-blue-400 font-bold">→</span><span>Live MB progress with cancel support</span></li>
+                                    <li className="flex gap-3"><span className="text-blue-600 dark:text-blue-400 font-bold">→</span><span>Mirror Download with 15s timer</span></li>
+                                    <li className="flex gap-3"><span className="text-blue-600 dark:text-blue-400 font-bold">→</span><span>App Preview & What's New buttons</span></li>
+                                    <li className="flex gap-3"><span className="text-blue-600 dark:text-blue-400 font-bold">→</span><span>Dark mode fully supported</span></li>
                                 </ul>
-                                <button onClick={() => setShowWhatsNew(false)} className="mt-6 w-full py-3 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700">Got it!</button>
+                                
+                                <div className="border-t border-slate-200 dark:border-slate-700 my-3"></div>
+                                
+                                <button onClick={() => setShowWhatsNew(false)} className="w-full py-3 bg-black dark:bg-white text-white dark:text-black rounded-xl font-medium hover:bg-slate-800 dark:hover:bg-slate-200 transition-all">
+                                    Close
+                                </button>
                             </div>
                         </div>
                     )}
 
-                    {/* Bottom Download Panel */}
-                    {downloadState.show && (
-                        <DownloadPanel {...downloadState} onClose={closeDownloadPanel} />
-                    )}
-
-                    {/* QR Modal */}
-                    {showQR && (
-                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay" onClick={() => setShowQR(false)}>
-                            <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 text-center" onClick={e => e.stopPropagation()}>
-                                <h3 className="font-bold mb-4">Scan to Download</h3>
-                                <img src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(currentQRUrl)}`} alt="QR" className="mx-auto rounded-lg" />
-                                <button onClick={() => setShowQR(false)} className="mt-4 px-4 py-2 bg-slate-200 dark:bg-slate-800 rounded-lg">Close</button>
+                    {/* Screenshots Modal */}
+                    {showScreenshots && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay" onClick={() => setShowScreenshots(false)}>
+                            <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 max-w-lg w-full" onClick={e => e.stopPropagation()}>
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="font-bold text-lg flex items-center gap-2"><Icon name="eye" size={20} className="text-blue-600" /> App Preview</h3>
+                                    <button onClick={() => setShowScreenshots(false)}><Icon name="x" size={20} /></button>
+                                </div>
+                                <div className="relative">
+                                    <div className={`h-48 rounded-xl bg-gradient-to-br ${SCREENSHOTS[currentScreenshot].color} flex items-center justify-center text-white`}>
+                                        <div className="text-center">
+                                            <Icon name="image" size={48} className="mx-auto mb-2 opacity-80" />
+                                            <p className="font-bold text-lg">{SCREENSHOTS[currentScreenshot].title}</p>
+                                            <p className="text-sm opacity-90">{SCREENSHOTS[currentScreenshot].desc}</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-between mt-4">
+                                        <button onClick={() => setCurrentScreenshot(prev => prev === 0 ? SCREENSHOTS.length - 1 : prev - 1)} className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full"><Icon name="chevron-left" size={20} /></button>
+                                        <div className="flex gap-1">{SCREENSHOTS.map((_, i) => <div key={i} className={`w-2 h-2 rounded-full ${i === currentScreenshot ? 'bg-blue-600' : 'bg-slate-300'}`} />)}</div>
+                                        <button onClick={() => setCurrentScreenshot(prev => prev === SCREENSHOTS.length - 1 ? 0 : prev + 1)} className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full"><Icon name="chevron-right" size={20} /></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     )}
 
-                    {/* Navigation */}
+                    {downloadState.show && <DownloadPanel {...downloadState} onClose={closeDownloadPanel} />}
+
                     <nav className="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-black/80 backdrop-blur-md sticky top-0 z-40">
                         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-                            <div className="flex items-center gap-3"><div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg"><Icon name="smartphone" size={18} className="text-white" /></div><span className="font-bold text-lg tracking-tight">PadhaiSetu APK</span></div>
+                            <div className="flex items-center gap-3">
+                                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white shadow-lg"><Icon name="smartphone" size={18} className="text-white" /></div>
+                                <span className="font-bold text-lg tracking-tight">PadhaiSetu APK</span>
+                            </div>
                             <div className="flex items-center gap-2 sm:gap-4">
                                 <button onClick={shareApp} className="p-2 rounded-xl bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600"><Icon name="share" size={18} /></button>
                                 <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-xl bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600">{darkMode ? <Icon name="sun" size={18} /> : <Icon name="moon" size={18} />}</button>
@@ -436,15 +582,26 @@
                         </div>
                     </nav>
 
-                    {/* Hero */}
                     <header className="relative pt-12 pb-8 overflow-hidden">
-                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 pointer-events-none opacity-20 dark:opacity-10"><div className="absolute top-[-10%] left-[-10%] w-[40%] h-[60%] bg-blue-400 blur-[120px] rounded-full" /><div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[60%] bg-purple-400 blur-[120px] rounded-full" /></div>
+                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 pointer-events-none opacity-20 dark:opacity-10">
+                            <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[60%] bg-blue-400 blur-[120px] rounded-full" />
+                            <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[60%] bg-purple-400 blur-[120px] rounded-full" />
+                        </div>
                         <div className="max-w-6xl mx-auto px-6 text-center">
                             <div className="flex flex-col items-center gap-4">
                                 <div className="flex items-center gap-2"><Badge>Latest Release</Badge>{release?.prerelease && <span className="px-3 py-1 rounded-full border-2 border-[#9b6400] text-[#9b6400] text-[11px] font-bold">Pre-release</span>}</div>
                                 <h1 className="text-3xl md:text-4xl font-bold tracking-tight">PadhaiSetu Mobile App</h1>
-                                <p className="text-slate-500 dark:text-slate-400 font-medium">{release?.tag_name || 'v1.0.0'} • {totalDownloads.toLocaleString()} Total Downloads</p>
-                                <button onClick={() => generateQR(window.location.href)} className="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm font-medium hover:bg-slate-200">📱 Get QR Code</button>
+                                <p className="text-slate-500 dark:text-slate-400 font-medium">{release?.tag_name || 'v1.0.1'} • {totalDownloads.toLocaleString()} Total Downloads</p>
+                                
+                                <div className="flex flex-wrap items-center justify-center gap-3">
+                                    <button onClick={() => setShowScreenshots(true)} className="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-all flex items-center gap-2">
+                                        <Icon name="eye" size={16} /> App Preview
+                                    </button>
+                                    
+                                    <button onClick={() => setShowWhatsNew(true)} className="hidden sm:flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-all">
+                                        <span className="text-base">✨</span> What's New
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </header>
@@ -471,7 +628,14 @@
                                                         <span className={`px-3 py-1 rounded-full text-xs font-bold ${variant.id === 'universal' ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700' : 'bg-slate-100 dark:bg-slate-800'}`}>{variant.title}</span>
                                                         {variant.id !== 'universal' && <span className="text-slate-400 text-sm">{variant.label}</span>}
                                                     </div>
-                                                    <h3 className="text-xl font-bold mb-2">{release?.tag_name}-{variant.id}{release?.prerelease && <span className="ml-2 px-2 py-0.5 rounded-full border border-[#9b6400] text-[#9b6400] text-[10px]">Pre-release</span>}</h3>
+                                                    <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
+                                                        <span className="whitespace-nowrap">{release?.tag_name || 'v1.0.1'}-{variant.id}</span>
+                                                        {release?.prerelease && (
+                                                            <span className="px-2 py-0.5 rounded-full border border-[#9b6400] text-[#9b6400] text-[10px] whitespace-nowrap">
+                                                                Pre-release
+                                                            </span>
+                                                        )}
+                                                    </h3>
                                                     <p className="text-slate-500 text-sm mb-6">{variant.description}</p>
                                                     <div className="space-y-2 mb-8 text-sm">
                                                         <div className="flex justify-between"><span className="text-slate-400">Size:</span><span className="font-mono">{variant.asset ? formatSize(variant.asset.size) : '---'}</span></div>
@@ -481,8 +645,14 @@
                                                 </div>
                                                 {variant.asset ? (
                                                     <div className="space-y-2">
-                                                        <button onClick={() => handleDownload(variant.asset, variant)} className={`w-full py-3 rounded-lg ${variant.color} text-white font-bold active:scale-95 hover:brightness-110`}>Download APK</button>
-                                                        <button onClick={() => generateQR(variant.asset.browser_download_url)} className="w-full py-2 text-xs text-blue-600 hover:underline">📱 Get QR Code</button>
+                                                        <button onClick={() => handleDownload(variant.asset, variant)} className={`w-full py-3 rounded-lg ${variant.color} text-white font-bold active:scale-95 hover:brightness-110 flex items-center justify-center gap-2`}>
+                                                            <Icon name="download" size={18} /> Download APK
+                                                        </button>
+                                                        <MirrorButton 
+                                                            isTimerRunning={activeMirrorVariant === variant.id}
+                                                            timerCount={mirrorTimer}
+                                                            onTimerStart={() => startMirrorTimer(variant.id)}
+                                                        />
                                                     </div>
                                                 ) : <div className="w-full py-3 rounded-lg bg-slate-50 dark:bg-slate-800/50 text-slate-400 text-center border">Not in release</div>}
                                             </div>
@@ -495,10 +665,11 @@
                                     
                                     {allReleases.length > 0 && (
                                         <div className="bg-white dark:bg-[#0a0a0a] border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden">
-                                            <div className="p-5 border-b border-slate-100 dark:border-slate-800"><div className="flex items-center gap-2"><Icon name="tag" size={16} className="text-blue-600" /><h4 className="text-xs font-bold text-slate-500 uppercase">Version History</h4></div></div>
+                                            <div className="p-5 border-b border-slate-100 dark:border-slate-800">
+                                                <div className="flex items-center gap-2"><Icon name="tag" size={16} className="text-blue-600" /><h4 className="text-xs font-bold text-slate-500 uppercase">Version History</h4></div>
+                                            </div>
                                             <div className="p-5">
                                                 <CustomDropdown options={dropdownOptions} value={selectedVersion} onChange={handleVersionChange} />
-                                                
                                                 {selectedReleaseInfo && (
                                                     <div className="mt-5 text-center">
                                                         <p className="text-2xl font-bold text-slate-800 dark:text-slate-100">{selectedReleaseInfo.tag_name}</p>
@@ -506,7 +677,6 @@
                                                         {selectedReleaseInfo.prerelease && <span className="inline-block mt-2 px-3 py-0.5 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 text-[10px] font-bold rounded-full uppercase">Pre-release</span>}
                                                     </div>
                                                 )}
-                                                
                                                 <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
                                                     <span className="text-xs text-slate-500">{allReleases.length} versions available</span>
                                                     <span className="text-xs text-blue-600 font-medium">Currently: {release?.tag_name}</span>
@@ -520,12 +690,36 @@
                                         <div className="text-slate-600 dark:text-slate-400 max-h-[180px] overflow-y-auto pr-3 custom-scrollbar text-sm">{release?.body || "Official app build."}</div>
                                     </div>
                                     
-                                    <div className="bg-white dark:bg-[#0a0a0a] border border-slate-200 dark:border-slate-800 rounded-xl p-5">
+                                    <div className="bg-white dark:bg-[#0a0a0a] border border-slate-200 dark:border-slate-800 rounded-xl p-5 shadow-sm">
                                         <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-4">Integrity Checks</h4>
-                                        <div className="space-y-2">
-                                            <p className="text-[10px] font-bold uppercase flex items-center gap-1"><Icon name="shield-check" size={12} className="text-blue-600" /> SHA-256</p>
-                                            <p className="font-mono text-[10px] text-slate-500 break-all bg-slate-50 dark:bg-slate-800 p-2 rounded uppercase">{SHA_HASH.substring(0, 40)}...</p>
-                                            <button onClick={copyHash} className="mt-2 text-xs text-blue-600 hover:underline">{copySuccess ? '✓ Copied!' : '📋 Copy Hash'}</button>
+                                        <div className="space-y-3">
+                                            <p className="text-[10px] font-bold uppercase flex items-center gap-1">
+                                                <Icon name="shield-check" size={12} className="text-blue-600" /> SHA-256
+                                            </p>
+                                            <p className="font-mono text-[10px] text-slate-500 break-all bg-slate-50 dark:bg-slate-800 p-2.5 rounded-lg uppercase border border-slate-200 dark:border-slate-700">
+                                                {SHA_HASH}
+                                            </p>
+                                            <button 
+                                                onClick={copyHash} 
+                                                className={`w-full py-2.5 text-sm font-medium rounded-lg transition-all flex items-center justify-center gap-2 ${
+                                                    copySuccess 
+                                                        ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' 
+                                                        : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
+                                                }`}
+                                            >
+                                                {copySuccess ? (
+                                                    <>
+                                                        <Icon name="check" size={16} className="text-green-600" />
+                                                        <span>Copied!</span>
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        <Icon name="copy" size={16} />
+                                                        <span>Copy SHA-256</span>
+                                                    </>
+                                                )}
+                                            </button>
+                                            <p className="text-[10px] text-slate-400 text-center">Verify APK integrity before installing</p>
                                         </div>
                                     </div>
                                     
@@ -534,6 +728,7 @@
                                         <div className="space-y-3">
                                             <details className="group"><summary className="text-sm font-medium flex justify-between">How to install? <Icon name="chevron-right" size={14} className="group-open:rotate-90" /></summary><p className="text-xs text-slate-500 mt-2">Download APK, open file manager, tap to install.</p></details>
                                             <details className="group"><summary className="text-sm font-medium flex justify-between">Which variant? <Icon name="chevron-right" size={14} className="group-open:rotate-90" /></summary><p className="text-xs text-slate-500 mt-2">Universal for all. ARM64 for new, ARM32 for old.</p></details>
+                                            <details className="group"><summary className="text-sm font-medium flex justify-between">Mirror download? <Icon name="chevron-right" size={14} className="group-open:rotate-90" /></summary><p className="text-xs text-slate-500 mt-2">Alternative link if direct download fails. 15s wait time.</p></details>
                                         </div>
                                     </div>
                                 </div>
@@ -560,4 +755,4 @@
         root.render(<App />);
     </script>
 </body>
-</html>                                        
+</html>
