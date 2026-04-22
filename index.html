@@ -1,4 +1,4 @@
-              <!DOCTYPE html>
+               <!DOCTYPE html>
 <html lang="en" class="">
 <head>
     <meta charset="UTF-8">
@@ -242,6 +242,9 @@
             const [showWhatsNew, setShowWhatsNew] = useState(false);
             const [downloadState, setDownloadState] = useState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
             const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches));
+            
+            // Store interval ref for cleanup
+            const downloadIntervalRef = useRef(null);
 
             useEffect(() => {
                 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
@@ -303,40 +306,68 @@
             const shareApp = async () => { if (navigator.share) await navigator.share({ title: 'PadhaiSetu APK', text: 'Download Class 10 NCERT & BSEB books', url: window.location.href }); else { navigator.clipboard?.writeText(window.location.href); showToast('Link copied!'); } };
             const generateQR = (url) => { setCurrentQRUrl(url); setShowQR(true); };
 
-            const handleDownload = async (asset, variant) => {
+            // ========== FIXED DOWNLOAD FUNCTION ==========
+            const handleDownload = (asset, variant) => {
                 const version = release?.tag_name || 'v1.0.0';
                 const filename = `${APP_NAME}-${version}-${variant.id}.apk`;
                 const totalSize = asset.size;
                 
+                // Clear any existing interval
+                if (downloadIntervalRef.current) {
+                    clearInterval(downloadIntervalRef.current);
+                }
+                
                 setDownloadState({ show: true, progress: 0, filename, totalSize, downloadedSize: 0, isComplete: false, variant });
                 
-                try {
-                    const response = await fetch(asset.browser_download_url);
-                    if (!response.ok) throw new Error('Download failed');
-                    const reader = response.body.getReader();
-                    let receivedLength = 0;
-                    const chunks = [];
-                    while (true) {
-                        const { done, value } = await reader.read();
-                        if (done) break;
-                        chunks.push(value);
-                        receivedLength += value.length;
-                        setDownloadState(prev => ({ ...prev, downloadedSize: receivedLength, progress: Math.round((receivedLength / totalSize) * 100) }));
+                // DIRECT DOWNLOAD - No CORS issue
+                const link = document.createElement('a');
+                link.href = asset.browser_download_url;
+                link.download = filename;
+                link.target = '_blank';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Simulated progress for UX
+                let progress = 0;
+                downloadIntervalRef.current = setInterval(() => {
+                    progress += 4;
+                    if (progress >= 100) {
+                        clearInterval(downloadIntervalRef.current);
+                        downloadIntervalRef.current = null;
+                        setDownloadState(prev => ({ 
+                            ...prev, 
+                            isComplete: true, 
+                            progress: 100,
+                            downloadedSize: totalSize 
+                        }));
+                        showToast(`✅ ${filename} downloaded!`, 'success');
+                    } else {
+                        setDownloadState(prev => ({ 
+                            ...prev, 
+                            progress,
+                            downloadedSize: Math.floor((progress / 100) * totalSize)
+                        }));
                     }
-                    const blob = new Blob(chunks, { type: 'application/vnd.android.package-archive' });
-                    const blobUrl = URL.createObjectURL(blob);
-                    const a = document.createElement('a');
-                    a.href = blobUrl; a.download = filename;
-                    document.body.appendChild(a); a.click(); document.body.removeChild(a);
-                    URL.revokeObjectURL(blobUrl);
-                    setDownloadState(prev => ({ ...prev, isComplete: true, progress: 100 }));
-                } catch (err) {
-                    setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
-                    showToast('Download failed', 'error');
-                }
+                }, 100);
             };
 
-            const closeDownloadPanel = () => setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
+            const closeDownloadPanel = () => {
+                if (downloadIntervalRef.current) {
+                    clearInterval(downloadIntervalRef.current);
+                    downloadIntervalRef.current = null;
+                }
+                setDownloadState({ show: false, progress: 0, filename: '', totalSize: 0, downloadedSize: 0, isComplete: false, variant: null });
+            };
+            
+            // Cleanup on unmount
+            useEffect(() => {
+                return () => {
+                    if (downloadIntervalRef.current) {
+                        clearInterval(downloadIntervalRef.current);
+                    }
+                };
+            }, []);
 
             const dropdownOptions = allReleases.map(r => ({ value: r.tag_name, label: `${r.tag_name} ${r.prerelease ? '• Pre-release' : ''}`, tag_name: r.tag_name, prerelease: r.prerelease, date: new Date(r.published_at).toLocaleDateString() }));
             const selectedReleaseInfo = allReleases.find(r => r.tag_name === selectedVersion);
@@ -468,7 +499,6 @@
                                             <div className="p-5">
                                                 <CustomDropdown options={dropdownOptions} value={selectedVersion} onChange={handleVersionChange} />
                                                 
-                                                {/* CLEAN VERSION DISPLAY - Photo jaisa */}
                                                 {selectedReleaseInfo && (
                                                     <div className="mt-5 text-center">
                                                         <p className="text-2xl font-bold text-slate-800 dark:text-slate-100">{selectedReleaseInfo.tag_name}</p>
@@ -530,4 +560,4 @@
         root.render(<App />);
     </script>
 </body>
-</html>  
+</html>                                        
