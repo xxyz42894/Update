@@ -1,7 +1,5 @@
 {
-  "mirrors": {
-    "arm64": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/arm64.apk",
-    "arm32": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/arm32.apk",
-    "universal": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/universal.apk"
-  }
+  "arm64": "https://www.mediafire.com/file/your-file-arm64.apk",
+  "arm32": "https://www.mediafire.com/file/your-file-arm32.apk",
+  "universal": "https://www.mediafire.com/file/your-file-universal.apk"
 }
