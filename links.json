@@ -1,0 +1,7 @@
+{
+  "mirrors": {
+    "arm64": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/arm64.apk",
+    "arm32": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/arm32.apk",
+    "universal": "https://raw.githubusercontent.com/xxyz42894/Update/main/mirror/universal.apk"
+  }
+}
