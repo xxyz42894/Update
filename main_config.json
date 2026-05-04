@@ -1,0 +1,34 @@
+{
+  "subjects": [
+    {
+      "id": "maths",
+      "name": "Maths",
+      "file": "maths.json"
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "file": "science.json"
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "file": "hindi.json"
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "file": "english.json"
+    },
+    {
+      "id": "social",
+      "name": "Social Science",
+      "file": "social.json"
+    },
+    {
+      "id": "sanskrit",
+      "name": "Sanskrit",
+      "file": "sanskrit.json"
+    }
+  ]
+}
