@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "title": "इतिहास की दुनिया",
+      "image": "history",
+      "file": "history.json"
+    },
+    {
+      "title": "हमारी अर्थव्यवस्था",
+      "image": "economics",
+      "file": "economics.json"
+    },
+    {
+      "title": "लोकतांत्रिक राजनीति",
+      "image": "political",
+      "file": "political.json"
+    },
+    {
+      "title": "भारत: संसाधन एवं उपयोग",
+      "image": "geography",
+      "file": "geography.json"
+    }
+  ]
+}

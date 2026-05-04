@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "title": "Panorama Part 2",
+      "image": "panorama",
+      "file": "panorama.json"
+    },
+    {
+      "title": "English Reader",
+      "image": "english_reader",
+      "file": "english_reader.json"
+    },
+        {
+      "title": "Prose",
+      "image": "english_reader",
+      "file": "prose.json"
+    }
+  ]
+}

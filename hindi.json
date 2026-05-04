@@ -1,0 +1,19 @@
+{
+  "books": [
+        {
+      "title": "गोधूलि भाग 2      (गद्य खण्ड)",
+      "image": "godhuli",
+      "file": "godhuli_gad.json"
+    },
+    {
+      "title": "वर्णिका भाग 2",
+      "image": "varnika",
+      "file": "varnika.json"
+    },
+    {
+      "title": "गोधूलि भाग 2      (पद्य खण्ड)",
+      "image": "godhuli",
+      "file": "godhuli_pad.json"
+    }
+  ]
+}
