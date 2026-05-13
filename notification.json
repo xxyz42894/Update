@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome",
+    "message": "Thanks for installing our app",
+    "type": "update",
+    "sendDate": "13/05/2026",
+    "sendTime": "12:06:00 PM"
+  },
+  {
+    "id": 2,
+    "title": "New Mock Test",
+    "message": "Hindi Mock Test Added",
+    "type": "alert",
+    "sendDate": "14/05/2026",
+    "sendTime": "10:30:00 AM"
+  }
+]
