@@ -3,8 +3,8 @@
     "id": 3,
     "title": "New Mock Test",
     "message": "Hindi New Pattern Mock Test Added",
-    "type": "update",
+    "type": "alert",
     "sendDate": "14/05/2026",
-    "sendTime": "04:29:00 AM"
+    "sendTime": "04:29:00 PM"
   }
 ]
