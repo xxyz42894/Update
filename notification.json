@@ -6,5 +6,12 @@
     "type": "alert",
     "sendDate": "14/05/2026",
     "sendTime": "04:41:00 PM"
+  },
+  {
+  "id": 6,
+  "title": "New Update",
+  "type": "update",
+  "sendDate": "15/05/2026",
+  "sendTime": "02:44:00 PM"
   }
 ]
