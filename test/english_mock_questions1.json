@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q1",
+    "question": "'The Pace for Living' is written by ______.",
+    "options": {
+      "a": "R.C. Hutchinson",
+      "b": "Joan Lexau",
+      "c": "Satyajit Ray",
+      "d": "Mahadevi Verma"
+    }
+  },
+  {
+    "id": "q2",
+    "question": "The lesson 'The Pace for Living' is about the fast pace of _______.",
+    "options": {
+      "a": "Modern Life",
+      "b": "Modern Cinema",
+      "c": "Indian Education",
+      "d": "Indian Politics"
+    }
+  },
+  {
+    "id": "q3",
+    "question": "According to the author, the pace of life is _______.",
+    "options": {
+      "a": "decreasing",
+      "b": "increasing",
+      "c": "stationary",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q4",
+    "question": "The author noticed the fast pace of life in _______.",
+    "options": {
+      "a": "Indian city",
+      "b": "American city",
+      "c": "English city",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q5",
+    "question": "The author went to _______.",
+    "options": {
+      "a": "London",
+      "b": "Paris",
+      "c": "Dublin",
+      "d": "New York"
+    }
+  },
+  {
+    "id": "q6",
+    "question": "The author went to Dublin to attend a _______.",
+    "options": {
+      "a": "festival",
+      "b": "wedding",
+      "c": "conference",
+      "d": "conference of the publishers"
+    }
+  },
+  {
+    "id": "q7",
+    "question": "The author writes that the modern man wants to be free from _______.",
+    "options": {
+      "a": "worries",
+      "b": "work",
+      "c": "thought",
+      "d": "family"
+    }
+  },
+  {
+    "id": "q8",
+    "question": "The publisher wanted the author to finish the novel in _______.",
+    "options": {
+      "a": "six months",
+      "b": "three months",
+      "c": "two months",
+      "d": "one month"
+    }
+  },
+  {
+    "id": "q9",
+    "question": "The author compared the fast pace of modern life with that of _______.",
+    "options": {
+      "a": "A horse cart",
+      "b": "A bullock cart",
+      "c": "A car",
+      "d": "An aeroplane"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "The author thinks that all of us are the victims of a new _______.",
+    "options": {
+      "a": "disease",
+      "b": "speed",
+      "c": "tyranny",
+      "d": "system"
+    }
+  },
+  {
+    "id": "q11",
+    "question": "The new tyranny according to the author is the tyranny of _______.",
+    "options": {
+      "a": "money",
+      "b": "speed",
+      "c": "politics",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "The author thinks that our life is becoming more and more _______.",
+    "options": {
+      "a": "comfortable",
+      "b": "exhausting",
+      "c": "mechanical",
+      "d": "peaceful"
+    }
+  },
+  {
+    "id": "q13",
+    "question": "The author saw a movie in Dublin which was based on the life of _______.",
+    "options": {
+      "a": "George Bernard Shaw",
+      "b": "Charlie Chaplin",
+      "c": "Walt Disney",
+      "d": "R.C. Hutchinson"
+    }
+  },
+  {
+    "id": "q14",
+    "question": "The movie which the author saw in Dublin was titled _______.",
+    "options": {
+      "a": "City Lights",
+      "b": "The Great Dictator",
+      "c": "Modern Times",
+      "d": "Limelight"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "According to the author, the present generation suffers from _______.",
+    "options": {
+      "a": "Nervous Tension",
+      "b": "Heart disease",
+      "c": "Depression",
+      "d": "Anxiety"
+    }
+  },
+  {
+    "id": "q16",
+    "question": "The 'pace' of a man's life is determined by his _______.",
+    "options": {
+      "a": "nature of work",
+      "b": "personal habits",
+      "c": "work and habits",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "A person who lives at a fast pace is called a _______.",
+    "options": {
+      "a": "fast thinker",
+      "b": "quick-witted man",
+      "c": "slow thinker",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q18",
+    "question": "The author praises the 'slow thinker' for his _______.",
+    "options": {
+      "a": "decisiveness",
+      "b": "calmness",
+      "c": "intelligence",
+      "d": "thoughtfulness"
+    }
+  },
+  {
+    "id": "q19",
+    "question": "The writer says that the world is suffering from a common 'disease' called _______.",
+    "options": {
+      "a": "anxiety",
+      "b": "depression",
+      "c": "hurry",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q20",
+    "question": "The author thinks that the cinema has contributed to the increase of _______.",
+    "options": {
+      "a": "anxiety",
+      "b": "fear",
+      "c": "speed",
+      "d": "violence"
+    }
+  },
+  {
+    "id": "q21",
+    "question": "The cinema, according to the author, has presented a _______ view of life.",
+    "options": {
+      "a": "false",
+      "b": "exaggerated",
+      "c": "distorted",
+      "d": "realistic"
+    }
+  },
+  {
+    "id": "q22",
+    "question": "The author feels that the fast pace of life is harmful for our _______.",
+    "options": {
+      "a": "health",
+      "b": "body",
+      "c": "mind",
+      "d": "society"
+    }
+  },
+  {
+    "id": "q23",
+    "question": "The author wants us to _______.",
+    "options": {
+      "a": "protest against the fast pace of life",
+      "b": "accept the fast pace of life",
+      "c": "speed up our life",
+      "d": "none of these"
+    }
+  },
+  {
+    "id": "q24",
+    "question": "The author advises us to work with a ______ pace.",
+    "options": {
+      "a": "fast",
+      "b": "medium",
+      "c": "slow",
+      "d": "comfortable"
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "q1",
+    "question": "Who is the author of 'What is wrong with Indian Films'?",
+    "options": {
+      "a": "Rabindranath Tagore",
+      "b": "R.K. Narayan",
+      "c": "Salman Rushdie",
+      "d": "Satyajit Ray"
+    }
+  },
+  {
+    "id": "q2",
+    "question": "Satyajit Ray's essay critiques the quality of:",
+    "options": {
+      "a": "Hollywood films",
+      "b": "Indian films",
+      "c": "European films",
+      "d": "Japanese films"
+    }
+  },
+  {
+    "id": "q3",
+    "question": "Which art form does Ray call the most potent and versatile?",
+    "options": {
+      "a": "Theatre",
+      "b": "Music",
+      "c": "Literature",
+      "d": "Cinema"
+    }
+  },
+  {
+    "id": "q4",
+    "question": "When was the first feature film in India produced?",
+    "options": {
+      "a": "1907",
+      "b": "1913",
+      "c": "1925",
+      "d": "1930"
+    }
+  },
+  {
+    "id": "q5",
+    "question": "What is one major influence on Indian films as mentioned by Ray?",
+    "options": {
+      "a": "French films",
+      "b": "British drama",
+      "c": "Japanese storytelling",
+      "d": "American cinema"
+    }
+  },
+  {
+    "id": "q6",
+    "question": "Why does Ray criticize the influence of American films on Indian cinema?",
+    "options": {
+      "a": "They promote violence",
+      "b": "They do not match Indian life",
+      "c": "They lack good music",
+      "d": "They are technically weak"
+    }
+  },
+  {
+    "id": "q7",
+    "question": "What does Ray suggest Indian cinema needs the most?",
+    "options": {
+      "a": "High budgets",
+      "b": "Glossy effects",
+      "c": "More foreign collaborations",
+      "d": "A unique style and idiom"
+    }
+  },
+  {
+    "id": "q8",
+    "question": "What is the primary raw material of cinema, according to Ray?",
+    "options": {
+      "a": "Technology",
+      "b": "Landscape",
+      "c": "Music",
+      "d": "Life itself"
+    }
+  },
+  {
+    "id": "q9",
+    "question": "Why are Indian films rarely shown abroad, according to Ray?",
+    "options": {
+      "a": "Lack of translations",
+      "b": "Limited funding",
+      "c": "Cultural differences",
+      "d": "Poor storytelling quality"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "Which film industry is quantitatively ahead of Indian cinema?",
+    "options": {
+      "a": "British",
+      "b": "French",
+      "c": "Chinese",
+      "d": "Hollywood"
+    }
+  },
+  {
+    "id": "q11",
+    "question": "Which international film festival awards did Satyajit Ray win?",
+    "options": {
+      "a": "Oscars",
+      "b": "Golden Globe",
+      "c": "BAFTA",
+      "d": "Cannes, Venice, Berlin"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "Which type of drama is overused in Indian films, according to Ray?",
+    "options": {
+      "a": "Realistic drama",
+      "b": "Tragic drama",
+      "c": "Satirical drama",
+      "d": "Melodrama"
+    }
+  },
+  {
+    "id": "q13",
+    "question": "According to the essay, why are Indian films not shown abroad?",
+    "options": {
+      "a": "India offers a potential market for her own products",
+      "b": "Due to the language problem",
+      "c": "None of these",
+      "d": "Because Indian films are weak in quality"
+    }
+  },
+  {
+    "id": "q14",
+    "question": "In this lesson, the author compares Indian films with which films?",
+    "options": {
+      "a": "Korean",
+      "b": "Japanese",
+      "c": "Pakistani",
+      "d": "Western"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "According to the essay, the cinema combines the function of:",
+    "options": {
+      "a": "Destroys",
+      "b": "Deletes",
+      "c": "Rescues",
+      "d": "Combines"
+    }
+  },
+  {
+    "id": "q16",
+    "question": "What is the raw material of cinema, according to the essay?",
+    "options": {
+      "a": "Studio",
+      "b": "Camera",
+      "c": "Hall",
+      "d": "Life"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "As per the essay, the majority of Indian films are replete with:",
+    "options": {
+      "a": "Very good messages",
+      "b": "Visual imbalances",
+      "c": "Very exciting scenes",
+      "d": "Visual dissonances"
+    }
+  },
+  {
+    "id": "q18",
+    "question": "The essay 'What is Wrong with Indian Films' is taken from which book?",
+    "options": {
+      "a": "Pather Panchali",
+      "b": "Shatranj ke khilari",
+      "c": "Films of Youth",
+      "d": "Our Films, Their Films"
+    }
+  },
+  {
+    "id": "q19",
+    "question": "An Indian film should steer clear of:",
+    "options": {
+      "a": "inconsistencies",
+      "b": "controversies",
+      "c": "music",
+      "d": "ambiguity"
+    }
+  },
+  {
+    "id": "q20",
+    "question": "The first short film in India was produced in:",
+    "options": {
+      "a": "1913",
+      "b": "1910",
+      "c": "1915",
+      "d": "1907"
+    }
+  },
+  {
+    "id": "q21",
+    "question": "If the Indian film makers keep their ______ open, they are sure to make good films.",
+    "options": {
+      "a": "windows",
+      "b": "mouths",
+      "c": "doors",
+      "d": "eyes"
+    }
+  },
+  {
+    "id": "q22",
+    "question": "What our cinema needs above everything else is a style, an idiom, a sort of ______ of cinema which would be uniquely and recognizably Indian.",
+    "options": {
+      "a": "finance",
+      "b": "studio",
+      "c": "committee",
+      "d": "iconography"
+    }
+  },
+  {
+    "id": "q23",
+    "question": "Often by a queer process of reasoning, which of the following was equated with action?",
+    "options": {
+      "a": "Producing",
+      "b": "Acting",
+      "c": "Direction",
+      "d": "Movement"
+    }
+  }
+]

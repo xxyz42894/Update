@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q1",
+    "question": "Which of the following is the recent novel of Toni Morrison?",
+    "options": {
+      "a": "Merchant",
+      "b": "Paradise",
+      "c": "Apartheid",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following awards was also given to Toni Morrison?",
+    "options": {
+      "a": "Booker Award",
+      "b": "Pulitzer",
+      "c": "Hatred",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q3",
+    "question": "How was the old woman?",
+    "options": {
+      "a": "Blind",
+      "b": "Wise",
+      "c": "Softly Spoken",
+      "d": "A.S.U"
+    }
+  },
+  {
+    "id": "q4",
+    "question": "In the story 'Once Upon a Time' the woman is the daughter of:",
+    "options": {
+      "a": "Merchant",
+      "b": "Politician",
+      "c": "Slave",
+      "d": "A rich man"
+    }
+  },
+  {
+    "id": "q5",
+    "question": "What is the position of the old woman in her neighborhood?",
+    "options": {
+      "a": "Hatred",
+      "b": "Respected as Rural Prophet",
+      "c": "As a quarreling woman",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q6",
+    "question": "Why did the young people visit the old woman?",
+    "options": {
+      "a": "To tell her to leave her house",
+      "b": "To disprove her clairvoyance",
+      "c": "To approve her clairvoyance",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q7",
+    "question": "Toni Morrison is the writer of ……..",
+    "options": {
+      "a": "Gillu",
+      "b": "The Pace for Living",
+      "c": "Once Upon a Time",
+      "d": "Me and The Ecology Bit"
+    }
+  },
+  {
+    "id": "q8",
+    "question": "Toni Morrison received the Nobel Prize in the field of:",
+    "options": {
+      "a": "Peace",
+      "b": "Science",
+      "c": "Literature",
+      "d": "Economics"
+    }
+  },
+  {
+    "id": "q9",
+    "question": "In the story 'Once Upon a Time', the woman was visited by:",
+    "options": {
+      "a": "Some young people",
+      "b": "Some old people",
+      "c": "Some rich people",
+      "d": "Some sick people"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "In the essay 'Once Upon a Time' the old woman was_____.",
+    "options": {
+      "a": "blind but wise",
+      "b": "brave",
+      "c": "deaf",
+      "d": "lame"
+    }
+  },
+  {
+    "id": "q11",
+    "question": "Toni Morrison was the first………… to receive the Nobel Prize.",
+    "options": {
+      "a": "White woman",
+      "b": "European woman",
+      "c": "Asian woman",
+      "d": "Black woman"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "Some …………. people visited the old woman in 'Once Upon a Time'.",
+    "options": {
+      "a": "young",
+      "b": "gentle",
+      "c": "plate",
+      "d": "uncivilized"
+    }
+  },
+  {
+    "id": "q13",
+    "question": "The boy in 'Once Upon a Time' carries a ….. and a jug of warm cider.",
+    "options": {
+      "a": "bag",
+      "b": "old",
+      "c": "lamp",
+      "d": "cup"
+    }
+  },
+  {
+    "id": "q14",
+    "question": "The old woman was:",
+    "options": {
+      "a": "foolish",
+      "b": "wise",
+      "c": "shy",
+      "d": "bold"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "The young people asked the old woman a question whose answer could only be given by one who could:",
+    "options": {
+      "a": "see",
+      "b": "hear",
+      "c": "smell",
+      "d": "read"
+    }
+  },
+  {
+    "id": "q16",
+    "question": "The old woman was enough to know she could not help the young people.",
+    "options": {
+      "a": "stupid",
+      "b": "strong",
+      "c": "suspicious",
+      "d": "intelligent"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "What disability did the woman have?",
+    "options": {
+      "a": "Fatness",
+      "b": "Unable to move",
+      "c": "Blindness",
+      "d": "Could not talk"
+    }
+  },
+  {
+    "id": "q18",
+    "question": "The old woman's houses are situated outside of:",
+    "options": {
+      "a": "camp",
+      "b": "City",
+      "c": "town",
+      "d": "village"
+    }
+  },
+  {
+    "id": "q19",
+    "question": "Who is the first black woman to receive the Nobel Prize?",
+    "options": {
+      "a": "Toni Morrison",
+      "b": "Aung San Suu Kyi",
+      "c": "Amrita Pritam",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q20",
+    "question": "When did Toni Morrison receive the Nobel Prize?",
+    "options": {
+      "a": "A.D. 1990",
+      "b": "A.D. 1992",
+      "c": "A.D. 1993",
+      "d": "A.D. 1994"
+    }
+  },
+  {
+    "id": "q21",
+    "question": "Who is the author of the article 'Once Upon a Time'?",
+    "options": {
+      "a": "Aung San Suu Kyi",
+      "b": "R.C. Hutchinson",
+      "c": "Toni Morrison",
+      "d": "Rohitan Mistri"
+    }
+  }
+]

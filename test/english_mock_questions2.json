@@ -1,0 +1,322 @@
+[
+  {
+    "id": "q1",
+    "question": "What did the author do for environment?",
+    "options": {
+      "a": "Avoiding pollution",
+      "b": "Doing plantation",
+      "c": "A waring people",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q2",
+    "question": "“Nobody ‘s willing to do anything about ecology” is said by:",
+    "options": {
+      "a": "Jim",
+      "b": "jack",
+      "c": "Michael",
+      "d": "Jill"
+    }
+  },
+  {
+    "id": "q3",
+    "question": "Mr. Johnson was asked to use his car less to save the:",
+    "options": {
+      "a": "environment",
+      "b": "diesel",
+      "c": "weight",
+      "d": "petrol"
+    }
+  },
+  {
+    "id": "q4",
+    "question": "Preaching about ecology is easy but it is difficult to abide by the rules of:",
+    "options": {
+      "a": "preservation",
+      "b": "water wastage",
+      "c": "population growth",
+      "d": "noise pollution"
+    }
+  },
+  {
+    "id": "q5",
+    "question": "Jim asks Ms. Greene to save______ so that they can be made into paper.",
+    "options": {
+      "a": "leaves",
+      "b": "garbage",
+      "c": "newspaper",
+      "d": "fruit-skins"
+    }
+  },
+  {
+    "id": "q6",
+    "question": "Jim told Mr. Johnson that it would reduce____ and save ecology if he did not use his car for traveling short distances.",
+    "options": {
+      "a": "petrol",
+      "b": "pollution",
+      "c": "weight",
+      "d": "diesel"
+    }
+  },
+  {
+    "id": "q7",
+    "question": "The post office In ‘Me and the Ecology Bit’ is only___ blocks from Mr. Johnson’s house.",
+    "options": {
+      "a": "three",
+      "b": "two",
+      "c": "four",
+      "d": "one"
+    }
+  },
+  {
+    "id": "q8",
+    "question": "In this lesson the narrator talks about how he advises everybody on what they should do to protect the:",
+    "options": {
+      "a": "elderly",
+      "b": "ecology",
+      "c": "children",
+      "d": "pedestrians"
+    }
+  },
+  {
+    "id": "q9",
+    "question": "Jim’s mother told him that he used up….. watching television all the time.",
+    "options": {
+      "a": "petrol",
+      "b": "water",
+      "c": "electricity",
+      "d": "time"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "Who is the author of ‘Me and the Ecology Bit’?",
+    "options": {
+      "a": "John Hutchinson",
+      "b": "Joan Lexau",
+      "c": "Toni Morrison",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q11",
+    "question": "Jim asked Mrs. Greene to save the old newspaper for the school_____.",
+    "options": {
+      "a": "Office",
+      "b": "pickup",
+      "c": "children",
+      "d": "library"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "According to Jim, nobody wants to do anything about:",
+    "options": {
+      "a": "plants",
+      "b": "security",
+      "c": "ecology",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q13",
+    "question": "To whom did the author tell that you should not burn the leaves?",
+    "options": {
+      "a": "Mr. John",
+      "b": "Mr. Williams",
+      "c": "Mr. Charles",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q14",
+    "question": "According to Jim, who used electric appliances the most?",
+    "options": {
+      "a": "Women",
+      "b": "Men",
+      "c": "Young girl",
+      "d": "Old men"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "What according to the author is good for the garden?",
+    "options": {
+      "a": "Fertiliser",
+      "b": "Irrigation",
+      "c": "Compost",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q16",
+    "question": "What type of pollution is created by compost according to Mr. Williams?",
+    "options": {
+      "a": "Air pollution",
+      "b": "Nose pollution",
+      "c": "Noise pollution",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following statements is False, according to the essay ‘ Me and the Ecology Bit’?",
+    "options": {
+      "a": "Jim uses paper routes to convince the people.",
+      "b": "Mr. William was not convinced by Jim.",
+      "c": "Jim gives suggestions on ecology free of cost.",
+      "d": "People easily get convinced by Jim."
+    }
+  },
+  {
+    "id": "q18",
+    "question": "Where was Mrs. Greene pilling newspapers?",
+    "options": {
+      "a": "Next to her garbage bags",
+      "b": "In the corner of the garden",
+      "c": "Anywhere on campus",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q19",
+    "question": "When the author of ‘Me and the Ecology Bit’ went to Mr. Williams, he was:",
+    "options": {
+      "a": "burning fire",
+      "b": "burning straw",
+      "c": "burning forest",
+      "d": "burning leaves"
+    }
+  },
+  {
+    "id": "q20",
+    "question": "The author of ‘Me and Ecology Bit’ used to meet people and create awareness about:",
+    "options": {
+      "a": "Importance of health",
+      "b": "Importance of money",
+      "c": "Importance of ecology",
+      "d": "Importance of play"
+    }
+  },
+  {
+    "id": "q21",
+    "question": "‘Me and the Ecology Bit’ is all about :",
+    "options": {
+      "a": "Preserving water resources",
+      "b": "Preserving environment and ecology",
+      "c": "Preserving forest resources",
+      "d": "Preserving human resources"
+    }
+  },
+  {
+    "id": "q22",
+    "question": "In ‘Me and the Ecology Bit’ the post office was…….from Mr. Johnson’s house.",
+    "options": {
+      "a": "one block away",
+      "b": "four blocks away",
+      "c": "three blocks away",
+      "d": "two blocks away"
+    }
+  },
+  {
+    "id": "q23",
+    "question": "Surely, it is very hard to get people to work for :",
+    "options": {
+      "a": "population",
+      "b": "education",
+      "c": "ecology",
+      "d": "cleanliness"
+    }
+  },
+  {
+    "id": "q24",
+    "question": "In the essay ‘Me and the Ecology Bit’ the narrator has…route.",
+    "options": {
+      "a": "domestic",
+      "b": "paper",
+      "c": "metallic",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q25",
+    "question": "Jim asks Ms. Greene to keep the old newspaper for the school-going children who… them.",
+    "options": {
+      "a": "burnt",
+      "b": "bought",
+      "c": "read",
+      "d": "collected"
+    }
+  },
+  {
+    "id": "q26",
+    "question": "Jon Lexau is the author of____.",
+    "options": {
+      "a": "The pace of living",
+      "b": "Me and the ecology Bit",
+      "c": "Little girls wiser than Men",
+      "d": "Acceptance speech"
+    }
+  },
+  {
+    "id": "q27",
+    "question": "Mr. Johnson tells Jim that driving his motorbike causes___ Pollution.",
+    "options": {
+      "a": "noise",
+      "b": "soil",
+      "c": "water",
+      "d": "air"
+    }
+  },
+  {
+    "id": "q28",
+    "question": "How many blocks away was the post office from Mr. Johnson’s house in the essay ‘Me and the Ecology Bit’?",
+    "options": {
+      "a": "five blocks",
+      "b": "three blocks",
+      "c": "Two blocks",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q29",
+    "question": "What does Mr. Williams mean to say to Jim?",
+    "options": {
+      "a": "compost is not suitable for plants",
+      "b": "Compost is not environment friendly",
+      "c": "Compost smell up the whole street",
+      "d": "None of these"
+    }
+  },
+  {
+    "id": "q30",
+    "question": "Which animals mess up Ms. Greene’s yard?",
+    "options": {
+      "a": "elephant",
+      "b": "donkey",
+      "c": "monkey",
+      "d": "dog"
+    }
+  },
+  {
+    "id": "q31",
+    "question": "The narrator told Mr. Williams not to burn leaves as it is….. for the air and ecology.",
+    "options": {
+      "a": "excellent",
+      "b": "bad",
+      "c": "good",
+      "d": "helpful"
+    }
+  },
+  {
+    "id": "q32",
+    "question": "Jim found Mr. Williams burning :",
+    "options": {
+      "a": "books",
+      "b": "plants",
+      "c": "plastic",
+      "d": "leaves"
+    }
+  }
+]

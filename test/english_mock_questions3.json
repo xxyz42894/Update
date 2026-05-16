@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "Who has written 'Gillu'?",
+    "options": {
+      "a": "Puran Singh",
+      "b": "Satyajit Ray",
+      "c": "Mahadevi Verma",
+      "d": "Vidyapati"
+    }
+  },
+  {
+    "id": "q2",
+    "question": "What is the name of the injured baby squirrel?",
+    "options": {
+      "a": "Gillu",
+      "b": "Gullu",
+      "c": "Gill",
+      "d": "Golu"
+    }
+  },
+  {
+    "id": "q3",
+    "question": "Who started calling the baby squirrel 'Gillu'?",
+    "options": {
+      "a": "The narrator's husband",
+      "b": "The narrator's friend",
+      "c": "The narrator's servant",
+      "d": "The narrator"
+    }
+  },
+  {
+    "id": "q4",
+    "question": "How did Gillu sustain wounds?",
+    "options": {
+      "a": "Fell from a tree",
+      "b": "Attacked by a cat",
+      "c": "Caught in a storm",
+      "d": "An attack by crows"
+    }
+  },
+  {
+    "id": "q5",
+    "question": "What was the colour of Gillu's eyes?",
+    "options": {
+      "a": "Blue",
+      "b": "Green",
+      "c": "Brown",
+      "d": "Black"
+    }
+  },
+  {
+    "id": "q6",
+    "question": "What was Gillu's favourite food?",
+    "options": {
+      "a": "Fruits",
+      "b": "Vegetables",
+      "c": "Grains",
+      "d": "Nuts"
+    }
+  },
+  {
+    "id": "q7",
+    "question": "Where did Gillu live after being rescued?",
+    "options": {
+      "a": "In a cage",
+      "b": "In a garden",
+      "c": "In the narrator's room",
+      "d": "In a tree"
+    }
+  },
+  {
+    "id": "q8",
+    "question": "Who treated Gillu's wounds?",
+    "options": {
+      "a": "The narrator's mother",
+      "b": "The narrator's father",
+      "c": "The narrator's husband",
+      "d": "The narrator"
+    }
+  },
+  {
+    "id": "q9",
+    "question": "How did the narrator treat Gillu's wounds?",
+    "options": {
+      "a": "With hot water",
+      "b": "With cold water",
+      "c": "With iodine",
+      "d": "With ointment"
+    }
+  },
+  {
+    "id": "q10",
+    "question": "What did Gillu use to eat from the narrator's hand?",
+    "options": {
+      "a": "Grapes",
+      "b": "Bananas",
+      "c": "Apples",
+      "d": "Oranges"
+    }
+  },
+  {
+    "id": "q11",
+    "question": "What was the colour of Gillu's tail?",
+    "options": {
+      "a": "Black",
+      "b": "White",
+      "c": "Brown",
+      "d": "Gray"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "What did Gillu do when he was hungry?",
+    "options": {
+      "a": "Cried loudly",
+      "b": "Jumped around",
+      "c": "Made a specific sound",
+      "d": "Came to the narrator"
+    }
+  },
+  {
+    "id": "q13",
+    "question": "What did Gillu like to play with?",
+    "options": {
+      "a": "Paper",
+      "b": "String",
+      "c": "Balls",
+      "d": "Stones"
+    }
+  },
+  {
+    "id": "q14",
+    "question": "How long did Gillu live with the narrator?",
+    "options": {
+      "a": "One year",
+      "b": "Two years",
+      "c": "Three years",
+      "d": "Four years"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "What happened to Gillu at the end of the story?",
+    "options": {
+      "a": "He ran away",
+      "b": "He died",
+      "c": "He was set free",
+      "d": "He was given to a zoo"
+    }
+  },
+  {
+    "id": "q16",
+    "question": "How did the narrator feel when Gillu died?",
+    "options": {
+      "a": "Happy",
+      "b": "Angry",
+      "c": "Sad",
+      "d": "Relieved"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "What did the narrator do after Gillu's death?",
+    "options": {
+      "a": "Buried him",
+      "b": "Cremated him",
+      "c": "Threw him away",
+      "d": "Preserved his body"
+    }
+  },
+  {
+    "id": "q18",
+    "question": "What did the narrator learn from Gillu?",
+    "options": {
+      "a": "Love for animals",
+      "b": "Patience",
+      "c": "Compassion",
+      "d": "Care for the helpless"
+    }
+  },
+  {
+    "id": "q19",
+    "question": "Gillu was a _____.",
+    "options": {
+      "a": "Cat",
+      "b": "Dog",
+      "c": "Squirrel",
+      "d": "Rabbit"
+    }
+  },
+  {
+    "id": "q20",
+    "question": "What does the story 'Gillu' signify?",
+    "options": {
+      "a": "Love for humans",
+      "b": "Human love for animals",
+      "c": "Cruelty to animals",
+      "d": "Importance of animals"
+    }
+  },
+  {
+    "id": "q21",
+    "question": "What did the narrator use to feed Gillu?",
+    "options": {
+      "a": "A bowl",
+      "b": "A plate",
+      "c": "A spoon",
+      "d": "Her hand"
+    }
+  },
+  {
+    "id": "q22",
+    "question": "How did Gillu express his happiness?",
+    "options": {
+      "a": "By jumping",
+      "b": "By dancing",
+      "c": "By chattering",
+      "d": "By running"
+    }
+  },
+  {
+    "id": "q23",
+    "question": "What was Gillu's favourite place to sleep?",
+    "options": {
+      "a": "The narrator's bed",
+      "b": "A nest",
+      "c": "A cardboard box",
+      "d": "The garden"
+    }
+  },
+  {
+    "id": "q24",
+    "question": "What did Gillu do when the narrator was writing?",
+    "options": {
+      "a": "Sat on her shoulder",
+      "b": "Played outside",
+      "c": "Slept on her lap",
+      "d": "Sat on her pen"
+    }
+  },
+  {
+    "id": "q25",
+    "question": "What happened to Gillu's tail?",
+    "options": {
+      "a": "It was cut off",
+      "b": "It was injured",
+      "c": "It was burned",
+      "d": "It was eaten by another animal"
+    }
+  },
+  {
+    "id": "q26",
+    "question": "What was the narrator doing when she first noticed Gillu?",
+    "options": {
+      "a": "Cooking",
+      "b": "Reading a book",
+      "c": "Gardening",
+      "d": "Sleeping"
+    }
+  },
+  {
+    "id": "q27",
+    "question": "How did the narrator's husband react to Gillu?",
+    "options": {
+      "a": "He was scared",
+      "b": "He was angry",
+      "c": "He was indifferent",
+      "d": "He was loving"
+    }
+  },
+  {
+    "id": "q28",
+    "question": "What did Gillu like to eat the most?",
+    "options": {
+      "a": "Bread",
+      "b": "Milk",
+      "c": "Nuts",
+      "d": "Fruits"
+    }
+  },
+  {
+    "id": "q29",
+    "question": "What was Gillu's nature?",
+    "options": {
+      "a": "Aggressive",
+      "b": "Friendly and playful",
+      "c": "Shy and timid",
+      "d": "Intelligent and cunning"
+    }
+  },
+  {
+    "id": "q30",
+    "question": "Why did Gillu die?",
+    "options": {
+      "a": "Old age",
+      "b": "Disease",
+      "c": "Accident",
+      "d": "Fell from a tree"
+    }
+  }
+]
