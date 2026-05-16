@@ -1,87 +1,76 @@
 {
   "tests": [
-
     {
       "title": "Hindi Test 1",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 1: श्रम विभाजन और जाति प्रथा (निबंध)",
       "questions": "hindi_mock_questions1.json",
       "answers": "hindi_mock_answers1.json"
     },
-
     {
       "title": "Hindi Test 2",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 2: विष के दाँत (कहानी)",
       "questions": "hindi_mock_questions2.json",
       "answers": "hindi_mock_answers2.json"
     },
-
     {
       "title": "Hindi Test 3",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 3: भारत से हम क्या सीखें (भाषण)",
       "questions": "hindi_mock_questions3.json",
       "answers": "hindi_mock_answers3.json"
     },
-
     {
       "title": "Hindi Test 4",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 4: नाखून क्यों बढ़ते हैं (ललित निबंध)",
       "questions": "hindi_mock_questions4.json",
       "answers": "hindi_mock_answers4.json"
     },
-
     {
       "title": "Hindi Test 5",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 5: नागरी लिपि (निबंध)",
       "questions": "hindi_mock_questions5.json",
       "answers": "hindi_mock_answers5.json"
     },
-
     {
       "title": "Hindi Test 6",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 6: बहादुर (कहानी)",
       "questions": "hindi_mock_questions6.json",
       "answers": "hindi_mock_answers6.json"
     },
-
     {
       "title": "Hindi Test 7",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 7: परंपरा का मूल्यांकन (निबंध)",
       "questions": "hindi_mock_questions7.json",
       "answers": "hindi_mock_answers7.json"
     },
-
     {
       "title": "Hindi Test 8",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 8: जित-जित मैं निरखत हूँ (साक्षात्कार)",
       "questions": "hindi_mock_questions8.json",
       "answers": "hindi_mock_answers8.json"
     },
-
     {
       "title": "Hindi Test 9",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 9: आविन्यों (ललित रचना)",
       "questions": "hindi_mock_questions9.json",
       "answers": "hindi_mock_answers9.json"
     },
-
     {
       "title": "Hindi Test 10",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 10: मछली (कहानी)",
       "questions": "hindi_mock_questions10.json",
       "answers": "hindi_mock_answers10.json"
     },
     {
       "title": "Hindi Test 11",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 11: नौबतखाने में इबादत (व्यक्तिचित्र)",
       "questions": "hindi_mock_questions11.json",
       "answers": "hindi_mock_answers11.json"
     },
     {
       "title": "Hindi Test 12",
-      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "subtitle": "अध्याय 12: शिक्षा और संस्कृति (निबंध)",
       "questions": "hindi_mock_questions12.json",
       "answers": "hindi_mock_answers12.json"
     }
-
   ]
 }
