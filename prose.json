@@ -1,52 +1,36 @@
-{
-  "tests": [
-    {
-      "title": "English Test 1",
-      "subtitle": "Chapter 1: The Pace For Living",
-      "questions": "english_mock_questions1.json",
-      "answers": "english_mock_answers1.json"
-    },
-    {
-      "title": "English Test 2",
-      "subtitle": "Chapter 2: Me and The Ecology Bit",
-      "questions": "english_mock_questions2.json",
-      "answers": "english_mock_answers2.json"
-    },
-    {
-      "title": "English Test 3",
-      "subtitle": "Chapter 3: Gillu",
-      "questions": "english_mock_questions3.json",
-      "answers": "english_mock_answers3.json"
-    },
-    {
-      "title": "English Test 4",
-      "subtitle": "Chapter 4: What Is Wrong With Indian Films",
-      "questions": "english_mock_questions4.json",
-      "answers": "english_mock_answers4.json"
-    },
-    {
-      "title": "English Test 5",
-      "subtitle": "Chapter 5: Acceptance Speech",
-      "questions": "english_mock_questions5.json",
-      "answers": "english_mock_answers5.json"
-    },
-    {
-      "title": "English Test 6",
-      "subtitle": "Chapter 6: Once Upon A Time",
-      "questions": "english_mock_questions6.json",
-      "answers": "english_mock_answers6.json"
-    },
-    {
-      "title": "English Test 7",
-      "subtitle": "Chapter 7: The Unity Of Indian Culture",
-      "questions": "english_mock_questions7.json",
-      "answers": "english_mock_answers7.json"
-    },
-    {
-      "title": "English Test 8",
-      "subtitle": "Chapter 8: Little Girls Wiser Than Man",
-      "questions": "english_mock_questions8.json",
-      "answers": "english_mock_answers8.json"
-    }
-  ]
+{  
+  "chapters": [  
+    {  
+      "chapter_title": "Chapter 1: The Pace For Living",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/05/chapter-1.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 2: Me and The Ecology Bit",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-2-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 3: Gillu",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-3-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 4: What Is Wrong With Indian Films",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-4-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 5: Acceptance Speech",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-5-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 6: Once Upon A Time",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-6-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 7: The Unity Of Indian Culture",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-7-2.pdf"  
+    },  
+    {  
+      "chapter_title": "Chapter 8: Little Girls Wiser Than Man",  
+      "pdf_url": "http://bepclots.bihar.gov.in/wp-content/uploads/2021/01/chapter-8-1.pdf"  
+    }  
+  ]  
 }
