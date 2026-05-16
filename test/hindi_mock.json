@@ -11,64 +11,76 @@
     {
       "title": "Hindi Test 2",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions2.json",
+      "answers": "hindi_mock_answers2.json"
     },
 
     {
       "title": "Hindi Test 3",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions3.json",
+      "answers": "hindi_mock_answers3.json"
     },
 
     {
       "title": "Hindi Test 4",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions4.json",
+      "answers": "hindi_mock_answers4.json"
     },
 
     {
       "title": "Hindi Test 5",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions5.json",
+      "answers": "hindi_mock_answers5.json"
     },
 
     {
       "title": "Hindi Test 6",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions6.json",
+      "answers": "hindi_mock_answers6.json"
     },
 
     {
       "title": "Hindi Test 7",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions7.json",
+      "answers": "hindi_mock_answers7.json"
     },
 
     {
       "title": "Hindi Test 8",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions8.json",
+      "answers": "hindi_mock_answers8.json"
     },
 
     {
       "title": "Hindi Test 9",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions9.json",
+      "answers": "hindi_mock_answers9.json"
     },
 
     {
       "title": "Hindi Test 10",
       "subtitle": "पूर्ण सिलेबस टेस्ट",
-      "questions": "hindi_mock_questions1.json",
-      "answers": "hindi_mock_answers1.json"
+      "questions": "hindi_mock_questions10.json",
+      "answers": "hindi_mock_answers10.json"
+    },
+    {
+      "title": "Hindi Test 11",
+      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "questions": "hindi_mock_questions11.json",
+      "answers": "hindi_mock_answers11.json"
+    },
+    {
+      "title": "Hindi Test 12",
+      "subtitle": "पूर्ण सिलेबस टेस्ट",
+      "questions": "hindi_mock_questions12.json",
+      "answers": "hindi_mock_answers12.json"
     }
 
   ]
