@@ -1,0 +1,100 @@
+{
+  "tests": [
+    {
+      "title": "Science Test 1",
+      "subtitle": "अध्याय 1: रासायनिक अभिक्रियाएँ एवं समीकरण",
+      "questions": "science_mock_questions1.json",
+      "answers": "science_mock_answers1.json"
+    },
+    {
+      "title": "Science Test 2",
+      "subtitle": "अध्याय 2: अम्ल, क्षारक एवं लवण",
+      "questions": "science_mock_questions2.json",
+      "answers": "science_mock_answers2.json"
+    },
+    {
+      "title": "Science Test 3",
+      "subtitle": "अध्याय 3: धातु एवं अधातु",
+      "questions": "science_mock_questions3.json",
+      "answers": "science_mock_answers3.json"
+    },
+    {
+      "title": "Science Test 4",
+      "subtitle": "अध्याय 4: कार्बन एवं इसके यौगिक",
+      "questions": "science_mock_questions4.json",
+      "answers": "science_mock_answers4.json"
+    },
+    {
+      "title": "Science Test 5",
+      "subtitle": "अध्याय 5: तत्वों का आवर्त वर्गीकरण",
+      "questions": "science_mock_questions5.json",
+      "answers": "science_mock_answers5.json"
+    },
+    {
+      "title": "Science Test 6",
+      "subtitle": "अध्याय 6: जैव प्रक्रम",
+      "questions": "science_mock_questions6.json",
+      "answers": "science_mock_answers6.json"
+    },
+    {
+      "title": "Science Test 7",
+      "subtitle": "अध्याय 7: नियंत्रण एवं समन्वय",
+      "questions": "science_mock_questions7.json",
+      "answers": "science_mock_answers7.json"
+    },
+    {
+      "title": "Science Test 8",
+      "subtitle": "अध्याय 8: जीव जनन कैसे करते हैं",
+      "questions": "science_mock_questions8.json",
+      "answers": "science_mock_answers8.json"
+    },
+    {
+      "title": "Science Test 9",
+      "subtitle": "अध्याय 9: अनुवांशिकता एवं जैव विकास",
+      "questions": "science_mock_questions9.json",
+      "answers": "science_mock_answers9.json"
+    },
+    {
+      "title": "Science Test 10",
+      "subtitle": "अध्याय 10: प्रकाश-परावर्तन तथा अपवर्तन",
+      "questions": "science_mock_questions10.json",
+      "answers": "science_mock_answers10.json"
+    },
+    {
+      "title": "Science Test 11",
+      "subtitle": "अध्याय 11: मानव नेत्र एवं रंगबिरंगा संसार",
+      "questions": "science_mock_questions11.json",
+      "answers": "science_mock_answers11.json"
+    },
+    {
+      "title": "Science Test 12",
+      "subtitle": "अध्याय 12: विद्युत",
+      "questions": "science_mock_questions12.json",
+      "answers": "science_mock_answers12.json"
+    },
+    {
+      "title": "Science Test 13",
+      "subtitle": "अध्याय 13: विद्युत धारा का चुम्बकीय प्रभाव",
+      "questions": "science_mock_questions13.json",
+      "answers": "science_mock_answers13.json"
+    },
+    {
+      "title": "Science Test 14",
+      "subtitle": "अध्याय 14: ऊर्जा के स्रोत",
+      "questions": "science_mock_questions14.json",
+      "answers": "science_mock_answers14.json"
+    },
+    {
+      "title": "Science Test 15",
+      "subtitle": "अध्याय 15: हमारा पर्यावरण",
+      "questions": "science_mock_questions15.json",
+      "answers": "science_mock_answers15.json"
+    },
+    {
+      "title": "Science Test 16",
+      "subtitle": "अध्याय 16: प्राकृतिक संसाधनों का प्रबंधन",
+      "questions": "science_mock_questions16.json",
+      "answers": "science_mock_answers16.json"
+    }
+  ]
+}
