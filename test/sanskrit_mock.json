@@ -1,0 +1,88 @@
+{
+  "tests": [
+    {
+      "title": "Sanskrit Test 1",
+      "subtitle": "अध्याय 1: मङ्गलम् (कल्याणकारी/शुभ)",
+      "questions": "sanskrit_mock_questions1.json",
+      "answers": "sanskrit_mock_answers1.json"
+    },
+    {
+      "title": "Sanskrit Test 2",
+      "subtitle": "अध्याय 2: पाटलिपुत्रवैभवम् (पाटलिपुत्र का वैभव)",
+      "questions": "sanskrit_mock_questions2.json",
+      "answers": "sanskrit_mock_answers2.json"
+    },
+    {
+      "title": "Sanskrit Test 3",
+      "subtitle": "अध्याय 3: अलसकथा (आलसी की कहानी)",
+      "questions": "sanskrit_mock_questions3.json",
+      "answers": "sanskrit_mock_answers3.json"
+    },
+    {
+      "title": "Sanskrit Test 4",
+      "subtitle": "अध्याय 4: संस्कृतसाहित्ये लेखिकाः (संस्कृत साहित्य की लेखिकाएँ)",
+      "questions": "sanskrit_mock_questions4.json",
+      "answers": "sanskrit_mock_answers4.json"
+    },
+    {
+      "title": "Sanskrit Test 5",
+      "subtitle": "अध्याय 5: भारतमहिमा (भारत की महिमा/बड़ाई)",
+      "questions": "sanskrit_mock_questions5.json",
+      "answers": "sanskrit_mock_answers5.json"
+    },
+    {
+      "title": "Sanskrit Test 6",
+      "subtitle": "अध्याय 6: भारतीयसंस्काराः (भारतीयों के संस्कार)",
+      "questions": "sanskrit_mock_questions6.json",
+      "answers": "sanskrit_mock_answers6.json"
+    },
+    {
+      "title": "Sanskrit Test 7",
+      "subtitle": "अध्याय 7: नीतिश्लोकाः (नीति संबंधी श्लोक)",
+      "questions": "sanskrit_mock_questions7.json",
+      "answers": "sanskrit_mock_answers7.json"
+    },
+    {
+      "title": "Sanskrit Test 8",
+      "subtitle": "अध्याय 8: कर्मवीर कथाः (कर्मवीर की कहानी)",
+      "questions": "sanskrit_mock_questions8.json",
+      "answers": "sanskrit_mock_answers8.json"
+    },
+    {
+      "title": "Sanskrit Test 9",
+      "subtitle": "अध्याय 9: स्वामी दयानन्दः (स्वामी दयानन्द)",
+      "questions": "sanskrit_mock_questions9.json",
+      "answers": "sanskrit_mock_answers9.json"
+    },
+    {
+      "title": "Sanskrit Test 10",
+      "subtitle": "अध्याय 10: मन्दाकिनीवर्णनम् (मन्दाकिनी का वर्णन)",
+      "questions": "sanskrit_mock_questions10.json",
+      "answers": "sanskrit_mock_answers10.json"
+    },
+    {
+      "title": "Sanskrit Test 11",
+      "subtitle": "अध्याय 11: व्याघ्रपथिककथाः (बाघ और पथिक की कहानी)",
+      "questions": "sanskrit_mock_questions11.json",
+      "answers": "sanskrit_mock_answers11.json"
+    },
+    {
+      "title": "Sanskrit Test 12",
+      "subtitle": "अध्याय 12: कर्णस्य दानवीरता (कर्ण की दानवीरता)",
+      "questions": "sanskrit_mock_questions12.json",
+      "answers": "sanskrit_mock_answers12.json"
+    },
+    {
+      "title": "Sanskrit Test 13",
+      "subtitle": "अध्याय 13: विश्वशांतिः (विश्व की शांति)",
+      "questions": "sanskrit_mock_questions13.json",
+      "answers": "sanskrit_mock_answers13.json"
+    },
+    {
+      "title": "Sanskrit Test 14",
+      "subtitle": "अध्याय 14: शास्त्रकाराः (शास्त्र रचयिता)",
+      "questions": "sanskrit_mock_questions14.json",
+      "answers": "sanskrit_mock_answers14.json"
+    }
+  ]
+}
